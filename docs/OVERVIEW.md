@@ -7,7 +7,7 @@
 7. [Tests](TESTS.md)
 8. [Deploy](DEPLOY.md)
 ---
-> v.alpha.1 - Thursday 17th March 2022
+> v1.0.1
 # Overview
 [dbt](https://github.com/dbt-labs/dbt-core) is a rapidly growing project that aims to enable data teams to ship data like software teams ship software.
 
@@ -19,12 +19,14 @@ This guide will walk you through getting started with the `dbt-impala` adapter b
 |------|-----------|
 |Materialization: Table|Yes|
 |Materialization: View|Yes|
-|Materialization: Incremental|No|
+|Materialization: Incremental - Append|Yes|
+|Materialization: Incremental - Insert+Overwrite|Yes|
+|Materialization: Incremental - Merge|No|
 |Materialization: Ephemeral|No|
 |Seeds|Yes|
-|Tests|No|
-|Snapshots|No|
-|Documentation|No|
+|Tests|Yes|
+|Snapshots|Yes|
+|Documentation|Yes|
 |Authentication: LDAP|Yes|
 |Authentication: Kerberos|No|
 
