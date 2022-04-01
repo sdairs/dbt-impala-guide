@@ -7,7 +7,7 @@
 7. [Tests](TESTS.md)
 8. [Deploy](DEPLOY.md)
 ---
-> v1.0.1
+> v1.0.4
 # Overview
 [dbt](https://github.com/dbt-labs/dbt-core) is a rapidly growing project that aims to enable data teams to ship data like software teams ship software.
 
