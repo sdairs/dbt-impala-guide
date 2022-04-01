@@ -28,14 +28,14 @@ This guide will walk you through getting started with the `dbt-impala` adapter b
 |Snapshots|Yes|
 |Documentation|Yes|
 |Authentication: LDAP|Yes|
-|Authentication: Kerberos|No|
+|Authentication: Kerberos|Yes|
 
 ## Supported endpoints
 | Name | Supported |
 |------|-----------|
 |Cloudera Data Warehouse|Yes|
-|Cloudera DataHub|No|
-|Cloudera Private Cloud|No|
+|Cloudera DataHub|Yes|
+|Cloudera Private Cloud|Yes|
 
 ## Getting ready
 
